@@ -1,0 +1,149 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+/* Define variables in the :root */
+
+/* Use your variables on elements */
+
+
+   
+
+ body {
+  background-color: #aee8fd;}
+ 
+  #Runningcover{
+  width: 500px;
+  height: auto;
+  display: block;
+  justify-content: start;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: auto;
+  }
+ 
+
+
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ header{
+  /* position: fixed; */
+  top: 150px;
+  left: 0;
+  right: 0;
+  background-color: #00A6E0;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+ }
+
+ header .navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+
+header .navbar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 18px;
+  color: #ffffff;
+  display: block;
+}
+
+header .navbar ul li a:hover {
+  background: #ffffff;
+  color: #fff;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: #fff;
+  display: none;
+}
+
+header .navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgba(247, 0, 0, 0.1);
+}
+
+header .navbar ul li ul li ul {
+  left: 200px;
+  top:0;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: block;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+ h1{
+  display: flex;
+  justify-content: start;
+  font-family: 'swap';
+  color: #180e07;
+ }
+ main {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+  font-weight: 400;
+  color: #000000;
+
+  header .navbar ul {
+    list-style: none;
+  }
+ #logobillede {
+  width: 140px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+ }
+  header .navbar ul li{
+    position: relative;
+    float: left;
+  }
+  
+  header .navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+    color: black;
+    display: block;
+  }
+
+  header .navbar ul li a:hover {
+    background-color: rgb #EF7916;
+    color: #EF7916;
+  }
+  
+  
+
+#menu-bar{
+ display: none;
+}
+#menu-bar :checked .navbar{
+ display: block;}
